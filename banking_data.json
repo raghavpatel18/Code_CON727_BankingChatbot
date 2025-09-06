@@ -1,0 +1,199 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Hi there", "Hello there", "Greetings"],
+      "responses": ["Hello! How can I help you with your banking needs today?", "Hi there! Welcome to our banking assistant. What can I do for you?", "Hello! I'm your virtual banking assistant. How may I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "I'm done", "Exit", "Quit", "End conversation"],
+      "responses": ["Thank you for using our banking services. Have a great day!", "Goodbye! Feel free to return if you have more questions.", "Thank you for chatting with us. Have a wonderful day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Appreciate it", "Thanks for the help"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime! Is there anything else you need assistance with?"]
+    },
+    {
+      "tag": "account_balance",
+      "patterns": ["What's my balance", "How much money do I have", "Check my account balance", "Show me my balance", "Account balance", "Balance inquiry", "How much is in my account"],
+      "responses": ["To check your account balance, please log into your online banking portal or mobile app. For security reasons, I cannot access your specific account information.", "Your account balance can be viewed by logging into your secure online banking portal or by using our mobile app."]
+    },
+    {
+      "tag": "open_account",
+      "patterns": ["How do I open an account", "I want to open a new account", "Account opening process", "Create new account", "Start a new account", "Open savings account", "Open checking account"],
+      "responses": ["To open a new account, you can visit our nearest branch with your ID proof, address proof, and passport-sized photographs. You can also start the process online through our website.", "Opening an account is easy! You can either visit a branch with your identification documents or begin the application online through our secure website."]
+    },
+    {
+      "tag": "transfer_money",
+      "patterns": ["How to transfer money", "Send money to someone", "Transfer funds", "Wire transfer", "Money transfer options", "Send funds to another account", "Move money between accounts"],
+      "responses": ["You can transfer money through our mobile app, online banking portal, at a branch, or by calling our customer service. Make sure you have the recipient's account details ready.", "Money transfers can be done via our mobile app, online banking, or at any branch. You'll need the recipient's account number and bank details."]
+    },
+    {
+      "tag": "loan_info",
+      "patterns": ["Tell me about loans", "Loan options", "How do I get a loan", "Loan interest rates", "Apply for a loan", "Loan eligibility", "What loans do you offer", "Personal loan information"],
+      "responses": ["We offer various loans including personal loans, home loans, auto loans, and education loans. Each has different interest rates and eligibility criteria. You can check specific details on our website or speak with a loan officer.", "Our loan options include personal, home, auto, and education loans with competitive interest rates. Eligibility depends on your credit score, income, and existing financial commitments."]
+    },
+    {
+      "tag": "credit_card",
+      "patterns": ["I want a credit card", "Credit card application", "How to apply for credit card", "Credit card benefits", "Credit card offers", "Credit card types", "Credit limit", "Credit card fees"],
+      "responses": ["We offer several credit card options with different benefits like cashback, travel rewards, or low interest rates. You can apply online or at a branch. Approval depends on your credit history and income.", "Our credit cards come with various benefits tailored to different lifestyles. You can apply online, and the credit limit will be determined based on your credit score and financial profile."]
+    },
+    {
+      "tag": "atm_locations",
+      "patterns": ["Where is the nearest ATM", "ATM locations", "Find ATM near me", "Closest ATM", "ATM finder", "Where can I withdraw cash", "ATM services"],
+      "responses": ["You can find our nearest ATM by using the ATM locator feature on our website or mobile app. Just enter your location, and it will show you the closest options.", "To find the nearest ATM, please use our mobile app's ATM locator feature or check our website. You can also withdraw cash at most grocery stores and gas stations that offer cashback."]
+    },
+    {
+      "tag": "branch_locations",
+      "patterns": ["Where is the nearest branch", "Branch locations", "Find branch near me", "Closest bank branch", "Bank location", "Where is your bank located", "Branch timings", "Branch hours"],
+      "responses": ["You can locate our nearest branch using the branch locator tool on our website or mobile app. Most branches are open Monday to Friday from 9 AM to 5 PM, and some locations are open on Saturdays.", "Our branch locations can be found through our website or mobile app's branch locator feature. Please check specific branch hours as they may vary by location."]
+    },
+    {
+      "tag": "account_types",
+      "patterns": ["What types of accounts do you offer", "Different account options", "Savings vs checking account", "Account types", "Which account should I open", "Tell me about account options", "Types of bank accounts"],
+      "responses": ["We offer several account types including savings accounts, checking accounts, money market accounts, certificates of deposit (CDs), and retirement accounts. Each has different features and benefits.", "Our account options include savings accounts with competitive interest rates, checking accounts with various fee structures, high-yield money market accounts, CDs with fixed terms, and retirement planning accounts."]
+    },
+    {
+      "tag": "online_banking",
+      "patterns": ["How do I use online banking", "Set up online banking", "Online banking features", "Mobile banking app", "Digital banking", "Internet banking", "Online account access", "Banking website"],
+      "responses": ["Our online banking platform allows you to check balances, transfer funds, pay bills, and manage your accounts 24/7. You can register on our website with your account number and personal information.", "To set up online banking, visit our website and click on 'Register' or download our mobile app. You'll need your account number and personal details to complete the registration process."]
+    },
+    {
+      "tag": "mobile_banking",
+      "patterns": ["How to use mobile banking", "Download banking app", "Mobile app features", "Banking on phone", "Mobile check deposit", "Phone banking", "Banking app not working"],
+      "responses": ["Our mobile banking app is available for iOS and Android devices. It offers features like account monitoring, transfers, bill payments, mobile check deposits, and card controls. Download it from your app store.", "You can download our mobile banking app from the App Store or Google Play Store. It provides secure access to your accounts and features like mobile check deposit, fund transfers, and bill payments."]
+    },
+    {
+      "tag": "debit_card",
+      "patterns": ["How do I get a debit card", "Debit card application", "Replace lost debit card", "Activate debit card", "Debit card PIN", "Debit card not working", "Debit card charges"],
+      "responses": ["Debit cards are typically issued when you open a checking account. If you need a replacement, you can request one through online banking, by phone, or at a branch. Activation instructions will be provided with your card.", "To get a debit card, you need to have a checking account with us. If your card is lost or stolen, please contact our customer service immediately to report it and request a replacement."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What are your fees", "Monthly service charges", "Overdraft fees", "ATM fees", "Account maintenance fee", "Wire transfer fees", "Fee schedule", "Hidden charges"],
+      "responses": ["Our fee structure varies by account type. Common fees include monthly maintenance fees (which can often be waived), overdraft fees, wire transfer fees, and out-of-network ATM fees. You can find our complete fee schedule on our website.", "We have various fees depending on the account type and services used. Many fees can be avoided by maintaining minimum balances or setting up direct deposits. Our transparent fee schedule is available online."]
+    },
+    {
+      "tag": "interest_rates",
+      "patterns": ["What are your interest rates", "Current interest rates", "Savings account interest", "CD rates", "Interest on deposits", "Best interest rate accounts", "Compare interest rates"],
+      "responses": ["Our interest rates vary by product and are subject to change based on market conditions. Currently, our high-yield savings accounts offer up to 0.50% APY, while CDs range from 0.60% to 2.00% depending on the term.", "Interest rates depend on the account type and market conditions. Savings accounts typically earn 0.01-0.50% APY, money market accounts 0.05-0.60% APY, and CDs 0.60-2.00% APY for various terms."]
+    },
+    {
+      "tag": "mortgage",
+      "patterns": ["Tell me about mortgages", "Home loan information", "Mortgage rates", "How to apply for mortgage", "Mortgage pre-approval", "Refinance options", "Mortgage calculator", "Home buying process"],
+      "responses": ["Our mortgage options include fixed-rate and adjustable-rate mortgages with various terms. The application process begins with pre-approval, where we review your credit, income, and assets. Current rates and a mortgage calculator are available on our website.", "We offer competitive mortgage rates for both fixed and adjustable-rate home loans. The process starts with pre-approval, followed by home shopping, formal application, underwriting, and closing. Our mortgage specialists can guide you through each step."]
+    },
+    {
+      "tag": "direct_deposit",
+      "patterns": ["How to set up direct deposit", "Direct deposit form", "Payroll deposit", "Automatic deposit", "Direct deposit information", "Where to find routing number", "Setup automatic paycheck deposit"],
+      "responses": ["To set up direct deposit, provide your employer with our bank's routing number and your account number. You can find these numbers on your checks, through online banking, or by contacting customer service.", "Setting up direct deposit requires giving your employer our routing number and your account number. You can find this information on your checks, bank statements, or through online banking."]
+    },
+    {
+      "tag": "fraud_security",
+      "patterns": ["Report fraud", "Suspicious activity", "Unauthorized transaction", "Protect my account", "Security features", "Identity theft", "Fraud prevention", "Account security"],
+      "responses": ["If you notice suspicious activity, contact our fraud department immediately at 1-800-123-4567. We offer security features like transaction alerts, two-factor authentication, and fraud monitoring to protect your accounts.", "To report fraud or suspicious transactions, call our 24/7 fraud hotline immediately. We recommend enabling account alerts, using strong passwords, and regularly monitoring your accounts to enhance security."]
+    },
+    {
+      "tag": "international_banking",
+      "patterns": ["International wire transfer", "Foreign currency exchange", "Banking while abroad", "International fees", "Foreign transaction fees", "Currency conversion", "Using card overseas"],
+      "responses": ["We offer international services including wire transfers, foreign currency exchange, and global ATM access. Foreign transactions typically incur a 3% fee, and international wire transfers have specific cutoff times and fees.", "Our international banking services include wire transfers to foreign accounts, currency exchange, and worldwide ATM access. Be aware that foreign transactions may incur fees of 1-3%, and you should notify us before traveling internationally."]
+    },
+    {
+      "tag": "statement",
+      "patterns": ["Get my bank statement", "Monthly statement", "E-statement", "Paper statements", "View past statements", "Statement frequency", "Download statement"],
+      "responses": ["You can access your statements through online banking or our mobile app. We offer paperless e-statements or traditional paper statements. Past statements are typically available for up to 7 years online.", "Bank statements can be viewed and downloaded through online banking. You can choose between e-statements (environmentally friendly and immediate) or paper statements mailed to your address."]
+    },
+    {
+      "tag": "check_order",
+      "patterns": ["How to order checks", "Order new checkbook", "Check prices", "Reorder checks", "Custom checks", "Check designs", "Running out of checks"],
+      "responses": ["You can order checks through online banking, by phone, or at a branch. There are various designs and quantities available at different price points. Standard delivery takes 7-10 business days.", "To order new checks, log into online banking and select the 'Order Checks' option, or visit any branch. Prices vary based on design and quantity, and expedited shipping is available for an additional fee."]
+    },
+    {
+      "tag": "overdraft_protection",
+      "patterns": ["What is overdraft protection", "Overdraft options", "Avoid overdraft fees", "Overdraft coverage", "Link accounts for overdraft", "Opt in for overdraft", "Overdraft services"],
+      "responses": ["Overdraft protection links your checking account to another account or credit line to cover transactions when you don't have sufficient funds. This service can help you avoid declined transactions and reduce overdraft fees.", "We offer overdraft protection by linking your checking account to a savings account, credit card, or line of credit. This service transfers funds automatically when needed to prevent declined transactions."]
+    },
+    {
+      "tag": "bill_pay",
+      "patterns": ["How to pay bills online", "Bill payment service", "Automatic bill pay", "Schedule bill payments", "Bill pay features", "Pay utilities online", "Recurring bill payments"],
+      "responses": ["Our online bill pay service allows you to pay virtually any person or company through our website or mobile app. You can set up one-time or recurring payments and receive electronic bills from many service providers.", "With our bill pay service, you can schedule one-time or recurring payments to almost any biller. The system keeps track of payment history and allows you to receive e-bills from participating companies."]
+    },
+    {
+      "tag": "retirement_planning",
+      "patterns": ["Retirement accounts", "IRA options", "401k rollover", "Retirement planning", "Roth vs Traditional IRA", "Retirement savings", "Pension options", "Retirement advice"],
+      "responses": ["We offer various retirement accounts including Traditional and Roth IRAs, 401(k) rollovers, and other investment options. Our financial advisors can help you create a personalized retirement strategy based on your goals.", "Our retirement planning services include IRA accounts (both Traditional and Roth), 401(k) rollovers, and personalized investment strategies. We recommend scheduling an appointment with our financial advisors to discuss your specific retirement goals."]
+    },
+    {
+      "tag": "student_banking",
+      "patterns": ["Student accounts", "Banking for college students", "Student loans", "Student checking account", "Financial aid banking", "Student credit cards", "Banking for young adults"],
+      "responses": ["We offer student-friendly accounts with features like no monthly fees, free ATM access, and mobile banking. We also provide student loan options and financial education resources to help you manage your money while in school.", "Our student banking packages include no-fee checking accounts, educational resources, and special student credit card options with rewards for good grades. We also offer student loan refinancing options for after graduation."]
+    },
+    {
+      "tag": "business_banking",
+      "patterns": ["Business account options", "Small business banking", "Business loans", "Merchant services", "Business credit cards", "Corporate banking", "Business checking", "Commercial accounts"],
+      "responses": ["Our business banking services include checking and savings accounts, loans, merchant services, payroll processing, and cash management tools. We offer solutions tailored to businesses of all sizes, from startups to large corporations.", "We provide comprehensive business banking solutions including specialized accounts, lines of credit, payment processing, and cash flow management tools. Our business banking specialists can help you select the right services for your company's needs."]
+    },
+    {
+      "tag": "investment_options",
+      "patterns": ["Investment accounts", "Wealth management", "Financial advisor", "Investment strategies", "Stock trading", "Mutual funds", "Portfolio management", "Brokerage services"],
+      "responses": ["Our investment services include brokerage accounts, managed portfolios, mutual funds, ETFs, and retirement planning. Our financial advisors can help you create an investment strategy aligned with your goals and risk tolerance.", "We offer various investment options through our wealth management division, including self-directed trading, professionally managed portfolios, and access to diverse investment products. Schedule a consultation with our financial advisors to discuss your investment goals."]
+    },
+    {
+      "tag": "insurance_products",
+      "patterns": ["Bank insurance options", "Life insurance", "Home insurance", "Auto insurance", "Insurance through bank", "Insurance quotes", "Insurance policies"],
+      "responses": ["We offer insurance products including life, home, auto, and disability insurance through our partner providers. These products can often be bundled with your banking services for convenience and potential discounts.", "Through our insurance partners, we provide access to various insurance products including life, property, auto, and disability coverage. Our representatives can help you understand your options and find appropriate coverage."]
+    },
+    {
+      "tag": "tax_information",
+      "patterns": ["Tax documents from bank", "Tax forms", "1099 forms", "Tax reporting", "Interest tax documents", "Where to find tax forms", "Year-end tax statements"],
+      "responses": ["Your tax documents, including 1099-INT for interest income, are typically available by January 31st each year. You can access them through online banking or request paper copies from customer service.", "Bank-related tax documents such as 1099-INT (for interest earned) and 1098 (for mortgage interest paid) are made available electronically through online banking by January 31st each year, or you can request paper copies."]
+    },
+    {
+      "tag": "dispute_transaction",
+      "patterns": ["Dispute a charge", "Wrong transaction", "Incorrect fee", "Transaction error", "Chargeback process", "Report billing error", "Contest a transaction"],
+      "responses": ["To dispute a transaction, contact customer service within 60 days of the statement date. You can initiate the dispute online, by phone, or at a branch. Please have your account information and transaction details ready.", "If you notice an incorrect transaction, you can file a dispute through online banking or by calling customer service. The dispute process typically takes 7-10 business days for debit card transactions and up to 90 days for credit card disputes."]
+    },
+    {
+      "tag": "digital_wallet",
+      "patterns": ["How to use Apple Pay", "Google Pay setup", "Samsung Pay", "Digital wallet", "Mobile payment options", "Contactless payment", "Phone payment"],
+      "responses": ["We support digital wallets including Apple Pay, Google Pay, and Samsung Pay. To set up, add your card to your phone's wallet app and follow the verification steps. You can then make contactless payments at millions of locations.", "Our cards are compatible with major digital wallets like Apple Pay, Google Pay, and Samsung Pay. Add your card to your device's wallet app, complete the verification process, and enjoy secure contactless payments."]
+    },
+    {
+      "tag": "financial_planning",
+      "patterns": ["Financial planning services", "Financial advisor appointment", "Wealth planning", "Money management advice", "Financial goals", "Financial health checkup", "Personal finance consultation"],
+      "responses": ["Our financial planning services can help you set and achieve your financial goals. Our advisors offer personalized guidance on saving, investing, debt management, and retirement planning. Schedule a consultation at your nearest branch.", "We provide comprehensive financial planning services to help you build and protect your wealth. Our certified financial planners can assist with everything from budgeting and saving to complex investment strategies and estate planning."]
+    },
+    {
+      "tag": "mobile_deposit",
+      "patterns": ["How to deposit checks with phone", "Mobile check deposit", "Check deposit app", "Deposit check without ATM", "Mobile deposit limits", "Check deposit not working", "Remote deposit"],
+      "responses": ["Our mobile check deposit feature lets you deposit checks using your smartphone camera. Simply endorse the check, take photos of the front and back through our app, and follow the prompts. Funds are typically available within 1-2 business days.", "To use mobile check deposit, sign the back of your check with 'For Mobile Deposit Only' under your signature, open our banking app, select deposit, and take clear photos of both sides of the check. Be sure to keep the physical check until the deposit is confirmed."]
+    },
+    {
+      "tag": "lost_card",
+      "patterns": ["Lost my card", "Stolen card", "Freeze my card", "Block my card", "Card stolen", "Replace lost card", "Someone took my card", "Missing debit card", "Missing credit card"],
+      "responses": ["If your card is lost or stolen, please contact our 24/7 customer service immediately at 1-800-123-4567 to report it. You can also freeze your card temporarily through our mobile app or online banking until you find it.", "For lost or stolen cards, please call our emergency card services line immediately. We'll deactivate the card to prevent unauthorized use and arrange for a replacement to be sent to you, usually within 3-5 business days."]
+    },
+    {
+      "tag": "currency_exchange",
+      "patterns": ["Exchange currency", "Foreign currency", "Buy foreign money", "Currency conversion rates", "Exchange dollars", "Travel money", "Currency exchange fees"],
+      "responses": ["We offer foreign currency exchange services at most of our branches. Exchange rates are updated daily, and you can check current rates on our website. It's best to order currency in advance for less common currencies.", "You can exchange currency at our branches or order it online for pickup. We recommend ordering 3-5 business days before your trip to ensure availability. There is typically a small fee for currency exchange services."]
+    },
+    {
+      "tag": "credit_score",
+      "patterns": ["Check my credit score", "Free credit score", "Credit report", "Improve credit score", "Credit monitoring", "FICO score", "Credit history"],
+      "responses": ["We offer free credit score access to our customers through online banking. You can check your score, view your credit report factors, and get personalized tips to improve your credit health.", "Our credit monitoring service provides monthly updates to your credit score, alerts for significant changes to your credit report, and educational resources to help you build and maintain good credit."]
+    },
+    {
+      "tag": "auto_loan",
+      "patterns": ["Car loan options", "Auto financing", "Vehicle loan rates", "Finance a car", "Auto loan calculator", "Car loan application", "Refinance auto loan"],
+      "responses": ["Our auto loans offer competitive rates starting at 3.49% APR for new vehicles and 3.99% for used vehicles. You can apply online, get pre-approved before shopping, and enjoy flexible terms from 24 to 72 months.", "We provide auto loans with no application fees, quick approvals, and flexible terms. Our auto loan calculator on the website can help you estimate monthly payments based on loan amount, term, and interest rate."]
+    },
+    {
+      "tag": "home_equity",
+      "patterns": ["Home equity loan", "HELOC", "Borrow against home", "Home equity line of credit", "Use home equity", "Cash out home equity", "Home improvement loan"],
+      "responses": ["Our home equity options include fixed-rate home equity loans and variable-rate home equity lines of credit (HELOCs). These can be used for home improvements, debt consolidation, or other major expenses.", "Home equity products allow you to borrow against the equity in your home. We offer both lump-sum loans with fixed rates and lines of credit with flexible access to funds. Current rates and a home equity calculator are available on our website."]
+    }
+  ]
+} 
